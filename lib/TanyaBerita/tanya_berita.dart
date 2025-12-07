@@ -549,8 +549,8 @@ Analisis gambar berita ini dengan detail dan berikan:
                   "Halo! \n\nSaya Chatbot BusterHoax🤖 \n\n\n Asisten Anda untuk mendeteksi berita hoax.\n\n\n\n\n\n"
                   "Saya dapat membantu Anda dengan:\n\n"
                   "✅ Menganalisis teks berita\n\n\n"
-                  "📸 Memeriksa screenshot berita (tekan ikon kamera di atas)\n\n\n"
-                  "📋 Laporkan berita hoax (tekan ikon laporan di atas)\n\n\n\n\n\n"
+                  "📸 Memeriksa screenshot berita \n\n\n"
+                  "📋 Laporkan berita hoax \n\n\n\n\n\n"
                   "silahkan kirim berita yang anda ingin cek melalui \nlink atau gambar!",
 
               provider: GeminiProvider(
