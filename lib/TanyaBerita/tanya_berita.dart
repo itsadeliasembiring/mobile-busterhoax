@@ -17,8 +17,8 @@ class TanyaBerita extends StatefulWidget {
 
 class _TanyaBeritaState extends State<TanyaBerita> {
   // --- KONFIGURASI API ---
-  final String _geminiApiKey = "AIzaSyCtr3Vk7WYIWCHayRcQC-Xzxd0l8IrW-to"; 
-  final String _factCheckApiKey = "AIzaSyCtr3Vk7WYIWCHayRcQC-Xzxd0l8IrW-to"; 
+  final String _geminiApiKey = "AIzaSyCMH6m1ZDbpQptQuJslg8XkRITKd1xtXkg"; 
+  final String _factCheckApiKey = "AIzaSyCMH6m1ZDbpQptQuJslg8XkRITKd1xtXkg"; 
 
   final ImagePicker _picker = ImagePicker();
   File? _selectedImage;
