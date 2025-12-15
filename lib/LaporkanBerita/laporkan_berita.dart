@@ -25,7 +25,6 @@ class _LaporkanBeritaPageState extends State<LaporkanBeritaPage> {
   @override
   void initState() {
     super.initState();
-    // Ambil data dari arguments jika ada (dari analisis AI)
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final args = ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>?;
       if (args != null) {

@@ -17,8 +17,8 @@ class TanyaBerita extends StatefulWidget {
 
 class _TanyaBeritaState extends State<TanyaBerita> {
   // --- KONFIGURASI API ---
-  final String _geminiApiKey = "AIzaSyCMH6m1ZDbpQptQuJslg8XkRITKd1xtXkg"; 
-  final String _factCheckApiKey = "AIzaSyCMH6m1ZDbpQptQuJslg8XkRITKd1xtXkg"; 
+  final String _geminiApiKey = "AIzaSyBNJhCA_OmTbfofjEVOUCFcV_sEuxDOs-0"; 
+  final String _factCheckApiKey = "AIzaSyBNJhCA_OmTbfofjEVOUCFcV_sEuxDOs-0"; 
 
   final ImagePicker _picker = ImagePicker();
   File? _selectedImage;
@@ -582,20 +582,6 @@ Analisis gambar berita ini dengan detail dan berikan:
               style: LlmChatViewStyle(
                 backgroundColor: const Color(0xFFF5F6FA),
                 
-                // llmMessageStyle: LlmMessageStyle(
-                //   decoration: BoxDecoration(
-                //     color: Colors.white,
-                //     borderRadius: BorderRadius.circular(12),
-                //     boxShadow: [
-                //       BoxShadow(
-                //         color: Colors.black.withOpacity(0.05),
-                //         blurRadius: 4,
-                //         offset: const Offset(0, 2),
-                //       ),
-                //     ],
-                //   ),
-                // ),
-
                 llmMessageStyle: LlmMessageStyle(
                   icon: Icons.android,
                   iconColor: Colors.white,
@@ -624,19 +610,6 @@ Analisis gambar berita ini dengan detail dan berikan:
           ),
         ],
       ),
-      // Floating Action Button
-      // floatingActionButton: FloatingActionButton.extended(
-      //   onPressed: _openReportPage,
-      //   backgroundColor: Colors.orange,
-      //   icon: const Icon(Icons.report, color: Colors.white),
-      //   label: Text(
-      //     'Laporkan Hoax',
-      //     style: GoogleFonts.poppins(
-      //       color: Colors.white,
-      //       fontWeight: FontWeight.w600,
-      //     ),
-      //   ),
-      // ),
     );
   }
 }

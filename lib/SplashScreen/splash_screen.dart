@@ -14,7 +14,6 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   double _opacity = 0.0;
   
-  // Durasi sebagai konstanta
   static const Duration _fadeDuration = Duration(milliseconds: 500);
   static const Duration _initialDelay = Duration(milliseconds: 500);
   static const Duration _splashDelay = Duration(seconds: 3); // Durasi tampil splash
@@ -23,7 +22,6 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     
-    // Fade in animasi
     Future.delayed(_initialDelay, () {
       if (!mounted) return;
       setState(() {
@@ -31,7 +29,6 @@ class _SplashScreenState extends State<SplashScreen> {
       });
     });
 
-    // Otomatis pindah ke Menu setelah delay
     Future.delayed(_splashDelay, () {
       if (!mounted) return;
       _goToMenu();
@@ -82,17 +79,6 @@ class _SplashScreenState extends State<SplashScreen> {
                     ),
                   ),
                 ),
-                // Transform.translate(
-                //   offset: const Offset(0, -30),
-                //   child: Text(
-                //     '"Our Planet in Your Hands"',
-                //     style: GoogleFonts.montserrat(
-                //       fontSize: 16,
-                //       color: Colors.black,
-                //       fontStyle: FontStyle.italic,
-                //     ),
-                //   ),
-                // ),
               ],
             ),
           ),
